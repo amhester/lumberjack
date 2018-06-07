@@ -5,7 +5,7 @@
 ```javascript
 import Logger from 'logger' // ALT: const Logger = require('logger')
 
-// Instance methods
+// Create new instance of a logger
 const logger = new Logger({
   // The minimum level which will be output to the console
   minLevel: 'DEBUG', // OPTIONS: DEBUG | INFO | WARN | ERROR; DEFAULT: DEBUG
