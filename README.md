@@ -19,9 +19,9 @@ const logger = new Logger({
 
 // Log at debug levels
 logger.debug('Some debug message')
-// JSON => { "level": "DEBUG", "timestamp": <unix-timestamp>, "message": "Some debug message", data: [...anyOtherData] }
+// JSON => { "level": "DEBUG", "timestamp": <unix-timestamp>, "message": "Some debug message", data: {...data} }
 // TEXT => [YYYY-MM-DDTHH:mm:ss.SSS] DEBUG MSG: Some debug message
-//             ...anyOtherData
+//             ...data
 
 // Log at info level
 logger.info('Some info message')
