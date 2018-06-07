@@ -45,3 +45,8 @@ logger.on('log', (log) => {
 logger.withField("key", value).withField("key2", value2).withError(err).warn("Can finally be logged at any level.")
 
 ```
+
+## TODO
+
+- Get rid of unnecessary Stream.writable implementation
+  - Either switch to implement just EventEmitter or change to Stream.Readable (for piping into other streams)
