@@ -50,3 +50,4 @@ logger.withField("key", value).withField("key2", value2).withError(err).warn("Ca
 
 - Get rid of unnecessary Stream.writable implementation
   - Either switch to implement just EventEmitter or change to Stream.Readable (for piping into other streams)
+- Make log output asynchronous
